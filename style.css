@@ -1,6 +1,24 @@
-body { font-family: sans-serif; background-color: #f8f9fa; margin: 0; }
-.title { text-align: center; padding: 20px; }
-.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
-footer { background: #050f19; color: white; padding: 40px; text-align: center; }
-.social-links a { color: #fca311; font-size: 28px; margin: 0 15px; text-decoration: none; }
-.whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 15px 20px; border-radius: 50px; font-size: 28px; z-index: 1000; }
+/* CSS-ka cusub ee sawirada yareynaya */
+.product-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 15px; 
+    padding: 20px; 
+    max-width: 1000px; /* Waxay xadidaysaa baaxadda guud ee sawirada */
+    margin: auto; 
+}
+
+.product-card { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    background: white; 
+    border-radius: 8px; 
+    text-align: center;
+}
+
+.product-card img { 
+    width: 100%;       /* Sawirka wuxuu ku dhex ekaanayaa sanduuqiisa */
+    height: 180px;     /* Dhererka sawirka oo aan yareynay */
+    object-fit: contain; /* Sawirka oo dhan ayaa soo baxaya isagoo aan la jarjarin */
+    background-color: #f1f1f1; /* Midab yar oo gadaal u ah sawirka */
+}
