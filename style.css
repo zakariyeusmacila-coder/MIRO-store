@@ -1,0 +1,6 @@
+body { font-family: sans-serif; background-color: #f8f9fa; margin: 0; }
+.title { text-align: center; padding: 20px; }
+.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+footer { background: #050f19; color: white; padding: 40px; text-align: center; }
+.social-links a { color: #fca311; font-size: 28px; margin: 0 15px; text-decoration: none; }
+.whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 15px 20px; border-radius: 50px; font-size: 28px; z-index: 1000; }
